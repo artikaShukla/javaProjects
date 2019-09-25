@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class InsertionSimpleLinkedList {
+public class InsertionAndDeletionSimpleLinkedList {
 
     Node head;
 
@@ -56,7 +56,7 @@ public class InsertionSimpleLinkedList {
     }
 
     public static void main(String[] args) {
-        InsertionSimpleLinkedList insertionSimpleLinkedList = new InsertionSimpleLinkedList();
+        InsertionAndDeletionSimpleLinkedList insertionSimpleLinkedList = new InsertionAndDeletionSimpleLinkedList();
 
         // insertionSimpleLinkedList.head = new Node(1);
         insertionSimpleLinkedList.push(0);
